@@ -133,8 +133,8 @@ SmallCapsFont=*-SC.ttf
 \newcommand{\education}[5]{
 	{\raggedleft\textsc{#1}\par} % Duration and conditional full time/part time text
 	\expandafter\ifstrequal\expandafter{#2}{}{}{}{{\raggedright\large #2}\\}  %Description
-	\expandafter\ifstrequal\expandafter{#3}{}{}{}{\raggedright\large\textit{\textbf{#3}}\\}
-	\expandafter\ifstrequal\expandafter{#4}{}{}{}{#4}
+	\expandafter\ifstrequal\expandafter{#3}{}{}{}{\raggedright\large\textit{\textbf{#3}}}
+	\expandafter\ifstrequal\expandafter{#4}{}{}{}{#4\\}
 	\expandafter\ifstrequal\expandafter{#5}{}{}{}{#5}
 }
 
